@@ -71,15 +71,15 @@
     var url = '';
     if (/^(\d{4}|category|tags|archive|subscribe)\b/.test(path)) {
       url = getDestUrl('blog.evecalm.com');
-      desc.innerHTML = '你也许是想阅读我的博客文章, 4秒钟后自动跳转至博文页面, 你也可以<a href="' + url + '">点此立刻跳转</a>'
+      desc.innerHTML = '你也许是想阅读我的博客文章, 4秒钟后自动跳转至博文页面<br>你也可以<a href="' + url + '">点此立刻跳转</a>'
       setTimeout(function () {
-        location.hostname = url;
+        location.href = url;
       }, 4000);
     } else if (/^about\b/.test(path)) {
       url = '/about/'
-      desc.innerHTML = '你也许是想查看我相关介绍, 4秒钟后自动跳转至关于页面, 你也可以<a href="' + url + '">点此立刻跳转</a>'
+      desc.innerHTML = '你也许是想查看我相关介绍, 4秒钟后自动跳转至关于页面<br>你也可以<a href="' + url + '">点此立刻跳转</a>'
       setTimeout(function () {
-        location.hostname = url;
+        location.href = url;
       }, 4000);
     }
   </script>
