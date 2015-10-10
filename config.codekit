@@ -43,7 +43,7 @@
 		"outputAbbreviatedPath": "\/css\/base.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
@@ -83,7 +83,7 @@
 		"outputAbbreviatedPath": "\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
@@ -103,13 +103,26 @@
 		"outputAbbreviatedPath": "\/css\/tooltip.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"strictImports": 0,
 		"strictMath": 0,
 		"strictUnits": 0
+		},
+	"\/Gruntfile.coffee": {
+		"createSourceMap": 1,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/Gruntfile.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/Gruntfile.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -143,6 +156,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
+		},
+	"\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/README.md": {
 		"criticStyle": 0,
@@ -257,7 +281,7 @@
 			"flagValue": -1
 			},
 		"no_implicit_braces": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_implicit_parens": {
@@ -726,7 +750,7 @@
 	"lessCreateSourceMap": 1,
 	"lessDisableJavascript": 0,
 	"lessIeCompatibility": 1,
-	"lessOutputStyle": 0,
+	"lessOutputStyle": 1,
 	"lessRelativeURLS": 0,
 	"lessStrictImports": 0,
 	"lessStrictMath": 0,
