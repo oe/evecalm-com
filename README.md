@@ -1,4 +1,4 @@
-evecalm.github.com
+evecalm-com
 ==================
 
-Saiya's app site. Please visit http://app.evecalm.com
+Saiya's main site. Please visit http://evecalm.com
