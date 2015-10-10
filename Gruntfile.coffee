@@ -27,6 +27,7 @@ module.exports = (grunt)->
               '!**/*.less'
               '!**/*.map'
               '!**/*.json'
+              '!config.codekit'
             ]
             dest: "#{BUILD_PATH}/"
             filter: 'isFile'
