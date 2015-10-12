@@ -10,10 +10,7 @@ body {
   font-family: @body-font;
 }
 
-// 老旧浏览器, 直接隐藏页面内容
-.ie9 section {
-  display: none;
-}
+
 
 .textshadow(@color: rgba(0,0,0, .6)) {
   // text-shadow: 0px 1px 20px rgba(0,0,0,0.6);
@@ -40,6 +37,16 @@ section {
   position: relative;
   display: flex;
   align-items: center;
+}
+
+// 老旧浏览器, 直接隐藏页面内容
+.ie9 {
+  section {
+    display: none !important;
+  }
+  h1 {
+    color: #000;
+  }
 }
 // 内容区域
 .content {

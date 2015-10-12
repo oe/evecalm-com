@@ -3,11 +3,21 @@
 a {
   .a;
 }
-
+// for small screen
 @media screen and (max-width: 480px) {
   a {
     margin-left: 10px;
     margin-right: 10px;
+  }
+}
+.touch-device {
+  .tooltipped:before,
+  .tooltipped:after {
+    display: none !important;
+  }
+
+  a {
+    text-decoration: underline;
   }
 }
 // title
