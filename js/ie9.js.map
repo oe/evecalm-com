@@ -1,1 +1,0 @@
-{"version":3,"file":"ie9.js","sources":["ie9.coffee"],"names":["message","document","createElement","documentElement","className","write"],"mappings":"AAAA,GAAAA,QAAAA,SAAU,oNAKVC,SAASC,cAAc,WACvBD,SAASE,gBAAgBC,WAAa,OACtCH,SAASI,MAAML;AAPf,IAAA;;AAAA,OAAA,GAAU;;AAKV,QAAQ,CAAC,aAAT,CAAuB,SAAvB;;AACA,QAAQ,CAAC,eAAe,CAAC,SAAzB,IAAsC;;AACtC,QAAQ,CAAC,KAAT,CAAe,OAAf"}

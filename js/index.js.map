@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sources":["index.coffee"],"names":["window","document","documentElement","className"],"mappings":"AAAG,gBAAkBA,UACnBC,SAASC,gBAAgBC,WAAa;AADxC,IAAG,cAAA,IAAkB,MAArB;EACE,QAAQ,CAAC,eAAe,CAAC,SAAzB,IAAsC,gBADxC"}
