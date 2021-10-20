@@ -5,6 +5,11 @@
   <meta charset="UTF-8">
   <title>404</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    if (/^\/(\d{4}|category|tags|archive|subscribe)\b/.test(location.pathname)) {
+      location.hostname = 'blog.evecalm.com';
+    }
+  </script>
   <style>
     html,
     body {
@@ -77,27 +82,12 @@
     </div>
   </section>
   <script>
-    var path = location.pathname.replace('/', '');
     var desc = document.getElementById('desc');
-    function getDestUrl(newHost) {
-      var a = document.createElement('a');
-      a.href = location.href;
-      a.hostname = newHost;
-      return a.href;
-    }
-    var url = '';
-    if (/^(\d{4}|category|tags|archive|subscribe)\b/.test(path)) {
-      url = getDestUrl('blog.evecalm.com');
-      desc.innerHTML = '你也许是想阅读我的博客文章, 4秒钟后自动跳转至博文页面<br>你也可以<a href="' + url + '">点此立刻跳转</a>'
-      setTimeout(function () {
-        location.href = url;
-      }, 4000);
-    } else if (/^about\b/.test(path)) {
-      url = '/about/'
+    if (/^about\b/.test(location.pathname)) {
       desc.innerHTML = '你也许是想查看我相关介绍, 4秒钟后自动跳转至关于页面<br>你也可以<a href="' + url + '">点此立刻跳转</a>'
       setTimeout(function () {
-        location.href = url;
-      }, 4000);
+        location.href = '/about/';
+      }, 3000);
     }
   </script>
 </body>
